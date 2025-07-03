@@ -1,0 +1,91 @@
+/* Existing trusted-companies CSS remains same */
+
+.site-header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.main-nav .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ek hi line me lane ke liye */
+    gap: 20px;
+    align-items: center;
+}
+
+.main-nav .nav-menu li {
+    margin: 0;
+}
+
+.main-nav .nav-menu li a {
+    text-decoration: none;
+    color: #0D6E6D;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.main-nav .nav-menu li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+
+.trusted-companies {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.trusted-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.trusted-text {
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+.trusted-text h2 {
+    font-size: 36px;
+    color: #0D6E6D;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.trusted-description {
+    flex: 1 1 300px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.logos-grid img {
+    max-width: 100px;
+    height: auto;
+}
